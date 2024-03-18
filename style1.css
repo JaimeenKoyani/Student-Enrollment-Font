@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* width: 3000px; */
+    background: url('bg.jpeg');
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2{
+    border-radius: 6px;
+    background-color: rgb(37, 106, 233);
+    padding: 20px 20px;
+    margin-top: 23px;
+    color: aliceblue;
+    text-align: center;
+   border-style:outset;
+
+}
+.container{
+    margin-left: 40px;
+    padding: 100px 70px;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+}
+
+#btna td input {
+    margin-top: 23px;
+    margin-left: 26%;
+    padding: 19px 52px;
+    color: rgb(37, 106, 233);
+    /* color: white; */
+}
+#btna td input:hover{
+    cursor: pointer;
+    color: aliceblue;
+    background: rgb(39, 149, 212);
+
+}
+ td #btn{
+    cursor: pointer;
+    color: aliceblue;
+    background: rgb(39, 149, 212);
+}
+.tab{
+    width: 60%;
+    border: 2px solid white;
+    color: white;
+}
+input{
+padding: 15px;
+width: 351px;
+}
+#display_table {
+
+    
+width:98%;
+    /* border: 1px solid rgb(248, 246, 246); */
+    margin: 23px 23px ;
+    padding: 23px 23px;
+    /* margin-top: 10%; */
+    color: rgb(250, 246, 246);
+}
+ th,tr{
+     /* background-color: black; */
+    border: 1px solid rgb(248, 248, 248);
+    margin: 23px 23px;
+    padding: 23px 23px;
+}
+ th,tr,td{
+     /* background-color: black; */
+    border: 1px solid rgb(248, 248, 248);
+    margin: 23px 23px;
+    padding: 23px 23px;
+}
+.en{
+    margin-top: 40px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.logo{
+    /* margin-top: 23px; */
+    width: 6%;
+    height: 12%;
+    /* position: relative; */
+}
+.logo img{
+  
+        width: 5%;
+        height: 11.5%;
+        position: absolute;
+        margin-left: 22px;
+}

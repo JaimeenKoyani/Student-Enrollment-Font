@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="logo">
+    <img src="logo.png" alt="">
+</div>
+    <h2>Student Enrollment Form</h2><br>
+<center>
+    <table class="tab" > 
+        <thead>
+            <tr>
+                <th>Enter your Name</th>
+                <td><input type="text" name="name"  id="name" required></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Enter your E-mail</th>
+                <td><input type="email" name="email" id="email"  required></td>
+            </tr>
+
+            <tr>
+                <th>Enter your Age</th>
+                <td><input type="text" name="gender" id="gender"  required></td>
+            </tr>
+            <tr>
+                <th>Enter your skill</th>
+                <td><input type="text" name="skill" id="skill"  required></td>
+            </tr>
+            <tr>
+                <th>Enter your course name</th>
+                <td><input type="text" name="image" id="image"  required></td>
+            </tr>
+            <tr id="btna">
+                <td colspan="7"><input type="button" id =" btn" name="  button"value="Enroll Now" onclick="AddRow()"></td>
+            </tr>
+
+
+
+        </tbody>
+
+   
+    </table>
+</center>
+
+<!-- <center> -->
+<p class="en">Enrolled Students</p>
+<!-- </center> -->
+
+<table id="display_table">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Skill</th>
+        <th>Course</th>
+    </tr>
+</table>
+
+</body>
+<script src="sef.js"></script>
+</html>
